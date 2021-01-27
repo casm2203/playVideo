@@ -1,0 +1,89 @@
+/* CSS general */
+.mi-iframe {
+    width: 240px;
+    height: 140px;
+}
+
+/* CSS pantallas de 320px o superior */
+@media (min-width: 320px) {
+
+    .mi-iframe {
+        width: 280px;
+        height: 240px;
+    }
+
+}
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 640px) {
+
+    .mi-iframe {
+        width: 580px;
+        height: 440px;
+    }
+
+}
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+
+    .mi-iframe {
+        width: 680px;
+        height: 440px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .mi-iframe {
+        width: 860px;
+        height: 600px;
+    }
+
+}
+
+
+.navHeader {
+    @apply flex items-center justify-between flex-wrap bg-gradient-to-r from-blue-400 to-teal-500 p-6;
+}
+
+.divLogo {
+    @apply flex items-center flex-shrink-0 text-white mr-6 font-semibold text-2xl tracking-tight;
+}
+
+.active {
+    @apply border border-teal-500 rounded bg-blue-600 px-2;
+}
+
+.navAncla {
+    @apply text-white block mt-4 mr-4 font-semibold;
+}
+
+.lbForm {
+    @apply block text-gray-700 text-sm font-bold mb-2;
+}
+
+.inpForm {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
+}
+
+.formCr {
+    @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4;
+}
+
+.headerTable {
+    @apply text-2xl text-center font-bold text-blue-400 mr-6 mb-4;
+}
+
+.aDelet {
+    @apply bg-transparent text-red-700 font-semibold py-1 px-2 border border-red-500;
+}
+
+.aEdit {
+    @apply bg-transparent text-yellow-500 font-semibold py-1 px-2 border border-yellow-500;
+}
+
+.aView {
+    @apply bg-transparent text-blue-500 font-semibold py-1 px-2 border border-blue-500;
+}
