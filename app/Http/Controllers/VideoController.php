@@ -26,7 +26,7 @@ class VideoController extends Controller
 
         $video = Video::create($request->all());
 
-        return redirect()->route('videos.index');
+        //return redirect()->route('videos.index');
     }
 
     public function show(Video $video)
